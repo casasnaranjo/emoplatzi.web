@@ -227,7 +227,7 @@
     <Compile Include="Models\EmoFace.cs" />
     <Compile Include="Models\EmoPicture.cs" />
     <Compile Include="Models\EmotionEnum.cs" />
-    <Compile Include="Models\EmotionPlatziwebContext.cs" />
+    <Compile Include="Models\emotionplatzi.cs" />
     <Compile Include="Models\Home.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\EmotionHelper.cs" />

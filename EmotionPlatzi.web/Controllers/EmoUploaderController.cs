@@ -15,14 +15,14 @@ namespace EmotionPlatzi.web.Controllers
     {
         string ServerFolderPath;
         EmotionHelper emotionhelper;
-        EmotionPlatziwebContext db;
+        emotionplatzi db;
         //Constructor de la clase
         public EmoUploaderController()
         {
             ServerFolderPath = ConfigurationManager.AppSettings["UPLOAD_DIR"];
             string Key = ConfigurationManager.AppSettings["EMOTION_KEY"];
             emotionhelper = new EmotionHelper(Key);
-            db = new EmotionPlatziwebContext();
+            db = new emotionplatzi();
         }
 
         // GET: EmoUploader

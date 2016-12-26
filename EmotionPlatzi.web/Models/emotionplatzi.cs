@@ -6,7 +6,7 @@ using System.Web;
 
 namespace EmotionPlatzi.web.Models
 {
-    public class EmotionPlatziwebContext : DbContext
+    public class emotionplatzi : DbContext
     {
         // You can add custom code to this file. Changes will not be overwritten.
         // 
@@ -15,11 +15,11 @@ namespace EmotionPlatzi.web.Models
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
     
-        public EmotionPlatziwebContext() : base("name=EmotionPlatziwebContext")
+        public emotionplatzi() : base("name=emotionplatzi")
 
         {
-            Database.SetInitializer<EmotionPlatziwebContext>(
-                new DropCreateDatabaseIfModelChanges<EmotionPlatziwebContext>()
+            Database.SetInitializer<emotionplatzi>(
+                new DropCreateDatabaseIfModelChanges<emotionplatzi>()
                 );
         }
 

@@ -15,7 +15,7 @@ namespace EmotionPlatzi.web.Controllers
 {
     public class EmoEmotionsAPIController : ApiController
     {
-        private EmotionPlatziwebContext db = new EmotionPlatziwebContext();
+        private emotionplatzi db = new emotionplatzi();
 
         // GET: api/EmoEmotionsAPI
         public IQueryable<EmoEmotion> GetEmoEmotions()

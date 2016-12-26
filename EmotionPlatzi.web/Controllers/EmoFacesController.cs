@@ -13,7 +13,7 @@ namespace EmotionPlatzi.web.Controllers
 {
     public class EmoFacesController : Controller
     {
-        private EmotionPlatziwebContext db = new EmotionPlatziwebContext();
+        private emotionplatzi db = new emotionplatzi();
 
         // GET: EmoFaces
         public ActionResult Index()
