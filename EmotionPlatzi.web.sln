@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmotionPlatzi.web", "Emotio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{A4AEA3C6-6591-4ABC-904F-FB40049116ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteConsola", "ClienteConsola\ClienteConsola.csproj", "{ACF0AF3C-6854-4A4A-8CCE-FD964B43C87F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{8639E62E-AAB7-43A1-BDFE-C6AAA9E708AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8639E62E-AAB7-43A1-BDFE-C6AAA9E708AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8639E62E-AAB7-43A1-BDFE-C6AAA9E708AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF0AF3C-6854-4A4A-8CCE-FD964B43C87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF0AF3C-6854-4A4A-8CCE-FD964B43C87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF0AF3C-6854-4A4A-8CCE-FD964B43C87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF0AF3C-6854-4A4A-8CCE-FD964B43C87F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

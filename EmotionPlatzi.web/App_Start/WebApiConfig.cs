@@ -25,8 +25,8 @@ namespace EmotionPlatzi.web
             config.Formatters.JsonFormatter.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
 
             //Serializador de XML
-            config.Formatters.XmlFormatter.MaxDepth = 2;
-            config.Formatters.XmlFormatter.UseXmlSerializer = true;
+            //config.Formatters.XmlFormatter.MaxDepth = 2;
+            //config.Formatters.XmlFormatter.UseXmlSerializer = true;
             //var xml = GlobalConfiguration.Configuration.Formatters.XmlFormatter;
             //var dcs = new DataContractSerializer(typeof(EmoPicture), null, int.MaxValue,
             //    false, /* preserveObjectReferences: */ false, null);
