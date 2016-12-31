@@ -219,6 +219,7 @@
     <Compile Include="Controllers\EmoFacesController.cs" />
     <Compile Include="Controllers\EmoPicturesAPIController.cs" />
     <Compile Include="Controllers\EmoPicturesController.cs" />
+    <Compile Include="Controllers\EmoUploaderApiController.cs" />
     <Compile Include="Controllers\EmoUploaderController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">

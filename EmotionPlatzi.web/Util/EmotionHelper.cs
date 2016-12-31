@@ -25,10 +25,19 @@ namespace EmotionPlatzi.web.Util
 
         public async Task<EmoPicture>  DetectAndExtractFacesAsync(Stream imagen)
         {
-            Emotion[] Emotions = await EmoClient.RecognizeAsync(imagen);
-            var emoPicture = new EmoPicture();
-            emoPicture.Faces = ExtractFaces(Emotions,emoPicture);
-            return emoPicture;
+            try
+            {
+                Emotion[] Emotions = await EmoClient.RecognizeAsync(imagen);
+                var emoPicture = new EmoPicture();
+                emoPicture.Faces = ExtractFaces(Emotions, emoPicture);
+                return emoPicture;
+            }
+            catch
+            {
+
+                return null;
+            }
+            
 
         }
 

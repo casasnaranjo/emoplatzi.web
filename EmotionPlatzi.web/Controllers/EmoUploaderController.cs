@@ -39,6 +39,7 @@ namespace EmotionPlatzi.web.Controllers
             {
                 string PictureFileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
                 var route = Server.MapPath(ServerFolderPath) + "/" + PictureFileName;
+               
                 file.SaveAs(route);
                 Stream imagens = file.InputStream;
                 var emopicture=await emotionhelper.DetectAndExtractFacesAsync(imagens);
